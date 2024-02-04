@@ -3,3 +3,5 @@ clone the repositories they refer to, locally. If the repositories have already 
 
 I was motivated to do this so that I could have a corpus of examples to search through when making my own plugins, as the
 logseq plugin API documentation is not very helpful at the moment. 
+
+As of this writing, the cloned set size is approximately 3.6 GB.
