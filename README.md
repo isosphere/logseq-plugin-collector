@@ -33,6 +33,6 @@ Options:
 ```
 
 
-# Size
+# Disk Space Requirements
 
-As of this writing, the cloned set size is approximately 3.6 GB.
+As of this writing, the complete cloned set of all logseq marketplace plugins takes up approximately 3.6 GB.
