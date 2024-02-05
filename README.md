@@ -19,7 +19,7 @@ Until I can learn how to use GitHub actions to produce release binaries, you'll 
 
 1. Install [Rust](https://www.rust-lang.org/tools/install)
 2. Clone this repo
-3. Run `cargo build --release` to create releae binaries for the project
+3. Run `cargo build --release` in the working directory of the repo to create release binaries for the project
 
 # Usage
 ```
