@@ -1,5 +1,5 @@
 use clap::Parser;
-use git2::{build::CheckoutBuilder, build::RepoBuilder, BranchType, Repository, FetchOptions};
+use git2::{build::CheckoutBuilder, build::RepoBuilder, Repository, FetchOptions};
 use serde::Deserialize;
 use std::fs;
 use std::path::Path;
