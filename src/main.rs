@@ -10,14 +10,21 @@ const LOGSEQ_MARKETPLACE_REPO_URL: &str = "https://github.com/logseq/marketplace
 #[derive(Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
 struct PluginManifest {
+    #[serde(skip)]
     title: String,
+    #[serde(skip)]
     description: String,
+    #[serde(skip)]
     author: String,
     /// Github username/repo
     repo: String, 
+    #[serde(skip)]
     icon: Option<String>,
+    #[serde(skip)]
     theme: Option<bool>,
+    #[serde(skip)]
     sponsors: Option<Vec<String>>,
+    #[serde(skip)]
     effect: Option<bool>,
 }
 
